@@ -18,10 +18,16 @@ html {
 body {
   background: var(--background);
   font-family: "Poppins", sans-serif;
+  background-image: radial-gradient(
+    rgba(0, 0, 0, 0.807) 1.5px,
+    transparent 1.5px
+  );
+  background-size: 30px 30px;
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 ul {
@@ -47,15 +53,14 @@ ul {
 }
 
 .nav-logo {
-    color:rgb(255, 153, 0);
-    font-weight: 600;
-    font-size: 15px;
-    padding: 0 20px;
+  color: rgb(255, 153, 0);
+  font-weight: 600;
+  font-size: 15px;
+  padding: 0 20px;
 }
 
 .nav-list {
   display: flex;
-  list-style: none;
   gap: 30px;
   padding: 0 30px;
   font-size: 15px;
