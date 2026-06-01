@@ -37,10 +37,10 @@ ul {
 
 /* tobbar */
 .topbar {
-  height: 220px;
+  height: 250px;
   background-image: url("../p.png");
   background-repeat: repeat-x;
-  background-size: 220px;
+  background-size: 250px;
 }
 
 /* hero */
@@ -78,25 +78,37 @@ ul {
 /* link */
 .link {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 40px 0;
+  gap: 40px;
 }
 
 .web {
   width: 85%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: #fffae9;
   padding: 10px 0;
+  background-color: #fffae9;
+  border: 2px solid black;
+  box-shadow: 5px 5px 0 black;
+  transition: all 0.15s ease;
+}
+
+.web:hover {
+  transform: translate(5px, 5px);
+  box-shadow: none;
 }
 
 .web i {
   font-size: 30px;
-  padding: 10px
+  padding: 10px 20px;
 }
 
 .web h2 {
-  font-size: 20px;
-  font-family: ;
+  font-size: 23px;
+  padding: 10px 0;
+  font-family: "Bricolage Grotesque", sans-seri;
+  font-weight: 900;
 }
