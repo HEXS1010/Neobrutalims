@@ -1,6 +1,7 @@
 :root {
   /* color */
   --background: #b6f500;
+  --bg-2: #fffae9;
 }
 
 *,
@@ -30,3 +31,10 @@ ul {
   list-style: none;
 }
 
+/* tobbar */
+.topbar {
+  height: 250px;
+  background-image: url("../p.png");
+  background-repeat: repeat-x;
+  background-size: 250px;
+}
