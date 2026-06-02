@@ -38,7 +38,7 @@ ul {
 /* tobbar */
 .topbar {
   height: 250px;
-  background-image: url("../p.png");
+  background-image: url("../topbar.png");
   background-repeat: repeat-x;
   background-size: 250px;
 }
@@ -58,8 +58,10 @@ ul {
 }
 
 .hero-items img {
-  width: 180px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
+  background-color: aliceblue;
   border: 2px solid black;
 }
 
