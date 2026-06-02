@@ -35,6 +35,14 @@ ul {
   list-style: none;
 }
 
+/* overlay */
+.overlay {
+  width: 100%;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0.733);
+  z-index: 1;
+}
+
 /* tobbar */
 .topbar {
   height: 250px;
