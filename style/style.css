@@ -13,7 +13,8 @@
 }
 
 body {
-  background: var(--background);
+  /* background: antiquewhite; */
+  background: #fcf3d3;
   /* font-family: "Poppins", sans-serif; */
   /* font-family: "Archivo Black", sans-serif; */
   /* font-family: "Space Grotesk", sans-serif; */
@@ -22,10 +23,25 @@ body {
     rgba(0, 0, 0, 0.807) 1.5px,
     transparent 1.5px
   ); */
-  background-image: url(../bg-hero.png);
+  /* background-image:
+    linear-gradient(rgba(0, 0, 0, 0.086), rgba(0, 0, 0, 0.3)),
+    url(../bg-hero.png); */
   /* background-size: 30px 30px; */
-  background-size: 35rem 25rem;
+
+  /* background-size: 35rem 25rem; */
   overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background-image: url(../bg-body.png);
+  background-size: 35rem;
+
+  opacity: 0.09;
+  z-index: -1;
 }
 
 a {
@@ -71,7 +87,8 @@ ul {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  background-color: antiquewhite;
   border: 3px solid black;
 }
 
