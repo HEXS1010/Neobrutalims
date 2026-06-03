@@ -74,7 +74,7 @@ ul {
     radial-gradient(rgba(0, 0, 0, 0.73) 2px, transparent 1.5px),
     linear-gradient(135deg, #ff6b35 0%, #f7931e 50%, #ff1493 100%);
   background-size: 15px 15px; */
-  background-size: 15px 15px; 
+  background-size: 15px 15px;
   border-bottom: 3px solid black;
   background-color: #a4fff1;
   /* background-image: url("../topbar.png"); */
@@ -127,6 +127,52 @@ ul {
   /* padding: 0 30px; */
   padding: 5px 15px 10px 15px;
   /* border: 2px solid black; */
+}
+
+/* pop up */
+.popup {
+  position: fixed;
+  inset: 0;
+
+  display: none;
+
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(0, 0, 0, 0.8);
+
+  z-index: 999;
+}
+
+.popup:target {
+  display: flex;
+}
+
+.popup img {
+  width: 400px;
+  max-width: 90%;
+
+  border: 4px solid black;
+  border-radius: 20px;
+}
+
+/* close popup */
+.close {
+  position: absolute;
+
+  top: 20px;
+  right: 30px;
+
+  font-size: 40px;
+  font-weight: bold;
+
+  color: white;
+}
+
+/* kalau diklik gk akan muncul biru */
+.hero-items a {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* link */
